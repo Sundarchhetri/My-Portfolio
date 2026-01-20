@@ -7,7 +7,7 @@ const Home = () => {
                 {/* LEFT COLUMN - TEXT */}
                 <div>
                     <p className="text-emerald-600 font-medium mb-2 flex items-center gap-2">
-                        <Hand size={20} /> Hello, I'm
+                        <Hand size={50} /> Hello, I'm
                     </p>
 
                     <h1 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white leading-tight">

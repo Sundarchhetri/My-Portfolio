@@ -30,7 +30,7 @@ const Contact = () => {
         <section className="min-h-screen py-20 bg-gray-50 dark:bg-slate-900 flex items-center">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
                 <div className="text-center mb-12">
-                    <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-4">
+                    <h2 className="text-4xl font-bold text-emerald-500 dark:text-emerald-500 mb-4">
                         Get In Touch
                     </h2>
                     <p className="text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">

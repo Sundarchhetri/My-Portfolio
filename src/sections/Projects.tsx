@@ -7,7 +7,7 @@ const Projects = () => {
             <div className="max-w-7xl mx-auto px-6">
                 <div className="text-center mb-12">
                     {/* Section Title */}
-                    <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-12 text-center">
+                    <h2 className="text-3xl md:text-4xl font-bold text-emerald-500 dark:text-emerald-500 mb-12 text-center">
                         Projects
                     </h2>
 

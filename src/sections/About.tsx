@@ -9,8 +9,8 @@ const About = () => {
                 {/* LEFT COLUMN - TEXT */}
                 <div>
                     {/* Section Title */}
-                    <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white flex items-center gap-2 mb-6">
-                        <User size={28} /> About Me
+                    <h2 className="text-3xl md:text-4xl font-bold text-emerald-600 flex items-center gap-2 mb-6">
+                        <User size={50} /> About Me
                     </h2>
 
                     {/* Description */}
