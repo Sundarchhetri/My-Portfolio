@@ -4,6 +4,7 @@ import Home from './sections/Home'
 import About from './sections/About'
 import Projects from './sections/Projects'
 import Contact from './sections/Contact';
+import Footer from './components/UI/Footer'
 
 const App = () => {
   return (
@@ -15,8 +16,8 @@ const App = () => {
         <Route path='/about' element={<About />} />
         <Route path='/projects' element={<Projects />} />
         <Route path='/contact' element={<Contact />} />
-
       </Routes>
+      <Footer />
     </>
   )
 }
