@@ -8,7 +8,6 @@ const NavigationBar = () => {
     const [open, setOpen] = useState<boolean>(false);
 
     const menuItems = [
-        { label: "Home", icon: Home, link: "/" },
         { label: "Home", icon: Home, link: "/home" },
         { label: "About", icon: User, link: "/about" },
         { label: "Projects", icon: Folder, link: "/projects" },
