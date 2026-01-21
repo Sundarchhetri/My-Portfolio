@@ -8,6 +8,7 @@ const NavigationBar = () => {
     const [open, setOpen] = useState<boolean>(false);
 
     const menuItems = [
+        { label: "Home", icon: Home, link: "/" },
         { label: "Home", icon: Home, link: "/home" },
         { label: "About", icon: User, link: "/about" },
         { label: "Projects", icon: Folder, link: "/projects" },
@@ -19,7 +20,7 @@ const NavigationBar = () => {
             <div className="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between">
 
                 {/* Logo */}
-                <NavLink to="/home" className="h-32 w-32 block">
+                <NavLink to="/" className="h-32 w-32 block">
                     <img
                         src="/logo.png"
                         alt="My Portfolio"
@@ -35,11 +36,12 @@ const NavigationBar = () => {
                             <li key={item.label}>
                                 <NavLink
                                     to={item.link}
-                                    className={({ isActive }) => `"mt-1 flex flex-col items-center cursor-pointer 
-                                    transition-colors duration-200
-                                    ${isActive
+                                    className={({ isActive }) =>
+                                        `mt-1 flex flex-col items-center cursor-pointer transition-colors duration-200
+                                            ${isActive
                                             ? "text-emerald-600 dark:text-emerald-400"
-                                            : "text-gray-800 dark:text-slate-200 hover:text-emerald-600 dark:hover:text-emerald-400"}`}
+                                            : "text-gray-800 dark:text-slate-200 hover:text-emerald-600 dark:hover:text-emerald-400"}`
+                                    }
                                 >
                                     <Icon size={20} />
                                     <span className="text-sm mt-1">{item.label}</span>
