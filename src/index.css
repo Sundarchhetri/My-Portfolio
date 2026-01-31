@@ -2,12 +2,65 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
-  @apply
-  bg-slate-50        /* Light background */
-  text-slate-900     /* Light text */
-  
+/* 🌞 Light Theme (default) */
 
-  dark:bg-slate-950  /* Dark background */
-  dark:text-slate-200; /* Dark text */
+@layer base {
+  body {
+    background-color: hsl(var(--background));
+    color: hsl(var(--foreground));
+    transition: color 0.3s, background-color 0.3s;
+  }
 }
+
+
+:root {
+  --background: 0 0% 100%;
+  --foreground: 222 47% 11%;
+
+  --card: 0 0% 100%;
+  --card-foreground: 222 47% 11%;
+
+  --primary: 222 89% 53%;
+  --primary-foreground: 0 0% 100%;
+
+  --muted: 210 40% 96%;
+  --muted-foreground: 215 16% 47%;
+
+  --border: 214 32% 91%;
+}
+
+/* 🌙 Dark Theme */
+.dark {
+  --background: 222 47% 11%;
+  --foreground: 210 40% 98%;
+
+  --card: 222 47% 14%;
+  --card-foreground: 210 40% 98%;
+
+  --primary: 210 100% 66%;
+  --primary-foreground: 222 47% 11%;
+
+  --muted: 217 33% 17%;
+  --muted-foreground: 215 20% 65%;
+
+  --border: 217 33% 20%;
+}
+
+/* 🌊 Ocean Theme (custom) */
+.ocean {
+  --background: 205 100% 95%;
+  --foreground: 215 50% 20%;
+
+  --card: 205 100% 98%;
+  --card-foreground: 215 50% 20%;
+
+  --primary: 199 89% 48%;
+  --primary-foreground: 0 0% 100%;
+
+  --muted: 200 80% 90%;
+  --muted-foreground: 215 30% 35%;
+
+  --border: 200 60% 80%;
+}
+
+
