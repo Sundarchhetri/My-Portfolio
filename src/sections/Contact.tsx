@@ -124,19 +124,19 @@ const Contact = () => {
     {
       icon: Mail,
       title: 'Email',
-      value: 'john@example.com',
-      link: 'mailto:john@example.com',
+      value: 'sundarchhetri9876@gmail.com',
+      link: 'mailto:sundarchhetri9876@gmail.com',
     },
     {
       icon: Phone,
       title: 'Phone',
-      value: '+1 (555) 123-4567',
-      link: 'tel:+15551234567',
+      value: '98XXXXXXXX',
+      link: 'tel:98XXXXXXXX',
     },
     {
       icon: MapPin,
       title: 'Location',
-      value: 'San Francisco, CA',
+      value: 'Beni-6, Myagdi, Nepal',
       link: null,
     },
   ];
