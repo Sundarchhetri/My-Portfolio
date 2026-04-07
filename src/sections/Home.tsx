@@ -81,6 +81,7 @@ const Home = () => {
           <Typewriter
             words={[
               "Full Stack Developer",
+              "Researcher",
               "IT Student",
             ]}
             loop={0}              // number | boolean
